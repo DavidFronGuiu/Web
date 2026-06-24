@@ -1,0 +1,4 @@
+document.getElementsByTagName("footer")[0].innerHTML = "<div>© 2026 David Fron</div> <div id='contenedorRedesSociales'><div>Redes sociales:</div> <div><a href='https://www.instagram.com/david_fron_g/'><img src='../../assets/instagram.png' alt='Icono de Instagram' height='2500' width='2500' class='rrss'></a> <a href='https://bsky.app/profile/davidfron.bsky.social'><img src='../../assets/Bluesky.png' alt='Icono de Bluesky' height='848' width='960' class='rrss'></a></div></div>";
+
+
+// <a href='#'><img src='../../assets/tiktok.png' alt='Icono de TikTok' height='512' width='512' class='rrss'></a>

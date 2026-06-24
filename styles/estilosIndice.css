@@ -1,0 +1,23 @@
+.cards{
+    margin: 0%;
+    margin-top: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.cards > div{
+    margin: 0%;
+    margin-bottom: 5%;
+    width: 30%;
+    height: 550px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cards>div>a>h5{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

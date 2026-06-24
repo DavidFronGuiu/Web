@@ -1,0 +1,35 @@
+div:has(div.imagen) { 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10%;
+   
+    
+}
+div:has(div.imagen) > p { 
+   width: 60%;
+}
+
+.imagen{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagen > img{
+    width: 70%;
+    height: auto;
+    align-self: center;
+}
+
+.contenedor > img{
+    width: 47.5%;
+    height: auto;
+}
+
+.contenedor{
+    column-gap: 5%;
+}

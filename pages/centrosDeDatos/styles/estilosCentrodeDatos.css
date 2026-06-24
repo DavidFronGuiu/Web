@@ -1,0 +1,21 @@
+.grafico{
+    width:65%;
+    height: auto;
+}
+
+div:has(p.destacado) { 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.destacado{
+    font-weight: bold;
+    color:brown;
+    padding: 5%;
+    border-left: 5px brown solid;
+    flex-shrink: 2;
+    margin-left: 10%;
+}
