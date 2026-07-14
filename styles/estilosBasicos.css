@@ -134,3 +134,8 @@ div:has(.rrss){
     text-indent: 5%;
     margin-top: 5%;
 }
+
+.autor-fecha{
+    display: flex;
+    justify-content: space-between;
+}

@@ -17,6 +17,11 @@
     text-overflow: ellipsis;
 }
 
+@media (max-width: 600px) {
+  .cards > div { width: 100%; height: auto;}
+  .cards > div > p {text-align: left;}
+}
+
 .cards>div>a>h5{
     overflow: hidden;
     text-overflow: ellipsis;
