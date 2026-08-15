@@ -139,3 +139,7 @@ div:has(.rrss){
     display: flex;
     justify-content: space-between;
 }
+
+hr{
+    margin-top: 10%;
+}

@@ -26,3 +26,5 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+  .cards > div > p {text-align: left;}
