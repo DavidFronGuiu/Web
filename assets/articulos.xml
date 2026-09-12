@@ -1,0 +1,29 @@
+<articulos>
+
+  <articulo titulo="Los rojipardos que pueden subir a la ultraderecha al poder" 
+    subtitulo="La Alianza Sahra Wagenknecht abre la puerta a un acuerdo con AFD en el estado de Sajonia-Anhalt"
+    portada="./sahra-wagenknecht-sajonia/images/portada.jpg">
+    <etiquetas>
+      <etiqueta>
+        Alemania
+      </etiqueta>
+      <etiqueta>
+        Elecciones
+      </etiqueta>
+    </etiquetas>
+  </articulo>
+
+  <articulo titulo="La unificación étnica de Xi Jinping" 
+    subtitulo="Organizaciones de derechos humanos critican la aprobación de la Ley de Promoción de la Unidad y el Progreso Étnicos"
+    portada="./unidad-etnica-china/images/portada.jpg">
+    <etiquetas>
+      <etiqueta>
+        Alemania
+      </etiqueta>
+      <etiqueta>
+        Elecciones
+      </etiqueta>
+    </etiquetas>
+  </articulo>
+
+</articulos>
