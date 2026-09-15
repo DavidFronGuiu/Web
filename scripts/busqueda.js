@@ -103,22 +103,9 @@ const zoomValueOutput = document.querySelector(".zoom-value");
 const countryNameOutput = document.querySelector(".country-name");
 
 countries.forEach(country => {
-    country.addEventListener("mouseenter", function(){
-        const classList = [...this.classList].join(' ');
-        console.log(classList);
-        const selector = '.' + classList;
-        const matchingElements = document.querySelectorAll(selector);
-        matchingElements.forEach(el => el.style.fill = "#c99aff");
-    });
-
-    country.addEventListener("mouseout", function(){
-        const classList = [...this.classList].join('.');
-        const selector = '.' + classList;
-        const matchingElements = document.querySelectorAll(selector);
-        matchingElements.forEach(el => el.style.fill = "#443db4b");
-    });
-
     country.addEventListener("click", function(e){
+        const classList = [...this.classList].join(' ');
+        window.location.href = `?etiqueta=${classList}`;
 
     });
 });
