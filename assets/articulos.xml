@@ -1,8 +1,9 @@
+<?xml version="1.0"?>
 <articulos>
 
   <articulo titulo="Los rojipardos que pueden subir a la ultraderecha al poder" 
     subtitulo="La Alianza Sahra Wagenknecht abre la puerta a un acuerdo con AFD en el estado de Sajonia-Anhalt"
-    portada="./sahra-wagenknecht-sajonia/images/portada.jpg">
+     carpeta="sahra-wagenknecht-sajonia"  width="960" height="685" alt="Un atril vacío del partido Alianza Sahra Wagenknecht">
     <etiquetas>
       <etiqueta>
         Alemania
@@ -15,13 +16,69 @@
 
   <articulo titulo="La unificación étnica de Xi Jinping" 
     subtitulo="Organizaciones de derechos humanos critican la aprobación de la Ley de Promoción de la Unidad y el Progreso Étnicos"
-    portada="./unidad-etnica-china/images/portada.jpg">
+    carpeta="unidad-etnica-china"  width="1280" height="853" alt="El presidente Xi Jinping observa un baile tradicional">
     <etiquetas>
       <etiqueta>
-        Alemania
+        China
+      </etiqueta>
+    </etiquetas>
+  </articulo>
+
+  <articulo titulo="La Ucrania en guerra se enfrenta a una de sus mayores crisis internas" 
+    subtitulo="La destitución del Ministro de Defensa ha provocado grandes manifestaciones que prometen continuar"
+    carpeta="fedorov" width="960" height="620" alt="Volodímir Zelenski frente a una bandera ucraniana">
+    <etiquetas>
+      <etiqueta>
+        Ucrania
+      </etiqueta>
+    </etiquetas>
+  </articulo>
+
+  <articulo titulo="El cubo de basura espacial que puede cambiar Reino Unido" 
+    subtitulo="La retirada de los partidos mayoritarios deja a Farage en una situación muy incómoda"
+    carpeta="binface-clacton"  width="960" height="620" alt="Count Binface celebrando">
+    <etiquetas>
+      <etiqueta>
+        Reino Unido
       </etiqueta>
       <etiqueta>
         Elecciones
+      </etiqueta>
+    </etiquetas>
+  </articulo>
+
+   <articulo titulo="La nube sobre Aragón" 
+    subtitulo="El crecimiento del número de centros de datos aviva temores de graves consecuencias medioambientales en la Comunidad Autónoma"
+    carpeta="la-nube-sobre-aragon" width="960" height="620" alt="Vista aérea de los centros de datos en Virginia, EE.UU.">
+    <etiquetas>
+      <etiqueta>
+        España
+      </etiqueta>
+      <etiqueta>
+        Medio Ambiente
+      </etiqueta>
+    </etiquetas>
+  </articulo>
+
+   <articulo titulo="“Hay veces que los ecologistas tenemos que debatir entre medio ambiente o economía; en este caso va a ser perjudicial para los dos”" 
+    subtitulo=""
+    carpeta="entrevistaGarciaValverde" width="960" height="620" alt="Rocío sobre una hoja">
+    <etiquetas>
+      <etiqueta>
+        España
+      </etiqueta>
+      <etiqueta>
+        Medio Ambiente
+      </etiqueta>
+    </etiquetas>
+  </articulo>
+
+   <articulo titulo="La Siria post-al-Assad" 
+    subtitulo="Más de un año después de la caída del regimen de Bashar al-Ásad, el nuevo gobierno se enfrenta a numerosas dificultades en la reconstrucción del país"
+    carpeta="siria-postassad" width="960" height="620" alt="El presidente sirio Ahmed al-Charaa (izquierda) junto al presidente azerbayano Ilham Alíyev (derecha)">
+    <etiquetas>
+      <etiqueta>
+        Siria
       </etiqueta>
     </etiquetas>
   </articulo>

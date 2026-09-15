@@ -143,3 +143,29 @@ div:has(.rrss){
 hr{
     margin-top: 10%;
 }
+
+.world-map{
+    margin-top: 5%;
+    padding: 5%;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.mapaInteractivo{
+    width: 100%;
+    height: 100%;
+    
+}
+
+path{
+    fill: grey;
+    stroke: #dcbfff;
+    transition: 100ms;
+}
+
+path:hover{
+    fill: lightblue;
+}
