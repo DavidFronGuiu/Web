@@ -6,7 +6,7 @@ xhttp.onreadystatechange = function() {
        busqueda(this);
     }
 };
-xhttp.open("GET", "./assets/articulos.xml", true);
+xhttp.open("GET", "/assets/articulos.xml", true);
 xhttp.send();
 
 
