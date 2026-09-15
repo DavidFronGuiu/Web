@@ -101,7 +101,7 @@ const zoomValueOutput = document.querySelector(".zoom-value");
 
 //Data outputs
 const countryNameOutput = document.querySelector(".country-name");
-/*
+
 countries.forEach(country => {
     country.addEventListener("mouseenter", function(){
         const classList = [...this.classList].join(' ');
@@ -121,7 +121,7 @@ countries.forEach(country => {
     country.addEventListener("click", function(e){
 
     });
-});*/
+});
 
 let zoomValue = 100;
 zoomOutBtn.disabled = true;
