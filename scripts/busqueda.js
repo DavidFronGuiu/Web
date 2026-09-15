@@ -15,6 +15,12 @@ xhttp.onreadystatechange = function() {
         
     }
 };
+
+function busquedaMapa(etiquetaMapa) {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+        busquedaEtiqueta(xhttp, etiquetaMapa);
+    }
+};
 xhttp.open("GET", "../assets/articulos.xml", true);
 xhttp.send();
 
@@ -105,8 +111,8 @@ const countryNameOutput = document.querySelector(".country-name");
 countries.forEach(country => {
     country.addEventListener("click", function(e){
         const classList = [...this.classList].join(' ');
-        window.location.href = `?etiqueta=${classList}`;
-
+        //window.location.href = `?etiqueta=${classList}`;
+        busquedaMapa(classList);
     });
 });
 
@@ -117,7 +123,7 @@ zoomInBtn.addEventListener("click", ()=>{
     zoomOutBtn.disabled = false;
     zoomValue += 25;
 
-    if(zoomValue <250){
+    if(zoomValue <500){
         zoomInBtn.disabled=false;
     }else{
         zoomInBtn.disabled = true;
