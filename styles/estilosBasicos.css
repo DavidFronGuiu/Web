@@ -23,6 +23,18 @@ nav > ul{
     justify-content:space-evenly;
 }
 
+@media (max-width: 600px) {
+    nav > ul{
+        height: 10vh;
+    }
+    nav > ul >li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+}
+
 nav > ul > li{
     border: 1px black solid;
     border-radius: 5px;
