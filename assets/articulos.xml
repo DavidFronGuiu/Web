@@ -1,6 +1,19 @@
 <?xml version="1.0"?>
 <articulos>
 
+  <articulo titulo="Bolsonaro: La dinastía contraataca" 
+    subtitulo="La inhabilitación por intento de golpe de estado a su padre no impiden las aspiraciones presidenciales de su hijo Flávio en Brasil"
+     carpeta="flavio-bolsonaro"  width="960" height="641" alt="Flávio Bolsonaro sujeta una tarta que pone 'Coraje para liderar, fuerza para vencer'">
+    <etiquetas>
+      <etiqueta>
+        Brasil
+      </etiqueta>
+      <etiqueta>
+        Elecciones
+      </etiqueta>
+    </etiquetas>
+  </articulo>
+
   <articulo titulo="Los rojipardos que pueden subir a la ultraderecha al poder" 
     subtitulo="La Alianza Sahra Wagenknecht abre la puerta a un acuerdo con AFD en el estado de Sajonia-Anhalt"
      carpeta="sahra-wagenknecht-sajonia"  width="960" height="685" alt="Un atril vacío del partido Alianza Sahra Wagenknecht">
