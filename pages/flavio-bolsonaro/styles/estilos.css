@@ -47,11 +47,13 @@ blockquote{
     align-self: center;
 }
 
-
-.textoLateral{
+@media (min-width: 992px) {
+    .textoLateral{
     width: 150%;
     padding-right: 5%;
 }
+}
+
 
 .mapa{
     width: 35%;

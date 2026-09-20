@@ -23,7 +23,7 @@ nav > ul{
     justify-content:space-evenly;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 992px) {
     nav > ul{
         height: 10vh;
     }
@@ -84,12 +84,14 @@ h1{
     height: auto;
     align-self: center;
 }
-
-.contenedor{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media (min-width: 992px) {
+    .contenedor{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
+
 
 main{
     margin-left: 10%;
