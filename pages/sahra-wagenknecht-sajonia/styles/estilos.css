@@ -48,9 +48,11 @@ blockquote{
 }
 
 
-.textoLateral{
-    width: 80%;
-    padding-right: 5%;
+@media (min-width: 992px) {
+    .textoLateral{
+        width: 80%;
+        padding-right: 5%;
+    }
 }
 
 .mapa{
