@@ -37,8 +37,12 @@
 @media (max-width: 992px) {
     .zoom-controls{
         position: absolute;
-        top: 20%;
+        top: 10%;
         right: 15%;
+    }
+
+    .world-map{
+        
     }
 }
 .zoom-controls button{
