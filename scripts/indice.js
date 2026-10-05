@@ -14,8 +14,30 @@ function busqueda(xhhtp) {
     document.getElementsByClassName("cards")[0].innerHTML = "";
     var xml = xhhtp.responseXML;
     var articulos = xml.getElementsByTagName("articulos")[0].getElementsByTagName("articulo");
-    for(var i = 0; i < articulos.length; i++) {
-        var articulo = articulos[i];
+    var articulo = articulos[0];
+
+    document.getElementsByClassName("cards")[0].innerHTML  += `
+        <section style=" border-radius: 35%; background-image: url('./pages/${articulo.getAttribute("carpeta")}/images/portada.jpg');" class="bg-center bg-no-repeat bg-blend-multiply ultimo">
+            <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+                <h1 style="background-color:rgba(0, 0, 0, 0.6); display:inline-block;" class="mb-6 text-4xl font-bold tracking-tighter text-white md:text-5xl lg:text-6xl">${articulo.getAttribute('titulo')}</h1>
+                
+                
+                
+                <div><p style="background-color:rgba(0, 0, 0, 0.6); font-size:22px; display:inline-block; width:80%; padding-inline:0px;" class="mb-8 text-base font-normal text-white md:text-xl sm:px-16 lg:px-48">${articulo.getAttribute('subtitulo')}</p>
+                </div>
+                
+                
+                <a style="background-color: darkblue; width: auto; opacity:0.9;" href="./pages/${articulo.getAttribute('carpeta')}/" class="inline-flex items-center justify-center text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium rounded-base text-base px-5 py-3 focus:outline-none">
+                        Leer más
+                        <svg class="w-4 h-4 ms-1.5 -me-0.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/></svg>
+                    </a>
+            </div>
+        </section>
+        `;
+
+
+    for(var i = 1; i < 10; i++) {
+        articulo = articulos[i];
         
         document.getElementsByClassName("cards")[0].innerHTML  += `
         

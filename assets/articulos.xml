@@ -1,5 +1,15 @@
 <?xml version="1.0"?>
 <articulos>
+  <articulo titulo="De paria internacional a inofensivo y respetuoso" 
+    subtitulo="La buena relación de Donald Trump con Corea del Norte es el último ejemplo del aumento del peso internacional del país"
+     carpeta="corea-norte-paria"  width="960" height="643" alt="Tres soldados (dos hombres y una mujer) en un poster propagandístico">
+    <etiquetas>
+      <etiqueta>
+        Corea del Norte
+      </etiqueta>
+    </etiquetas>
+  </articulo>
+
   <articulo titulo="Otra guerra en Etiopía" 
     subtitulo="Siete grupos armados han firmado un acuerdo para derrocar al gobierno de Abiy Ahmed Ali"
      carpeta="otra-guerra-etiopia"  width="960" height="641" alt="Siete grupos armados han firmado un acuerdo para derrocar al gobierno de Abiy Ahmed Ali">
