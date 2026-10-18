@@ -17,7 +17,8 @@ function busqueda(xhhtp) {
     var articulo = articulos[0];
 
     document.getElementsByClassName("cards")[0].innerHTML  += `
-        <section style=" border-radius: 35%; background-image: url('./pages/${articulo.getAttribute("carpeta")}/images/portada.jpg');" class="bg-center bg-no-repeat bg-blend-multiply ultimo">
+        <div style="display: flex; justify-content: center; width:100%; height: auto;">
+        <section style="border-radius: 35%; background-image: url('./pages/${articulo.getAttribute("carpeta")}/images/portada.jpg'); width: 100%;" class="bg-center bg-no-repeat bg-blend-multiply ultimo">
             <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
                 <h1 style="background-color:rgba(0, 0, 0, 0.6); display:inline-block;" class="mb-6 text-4xl font-bold tracking-tighter text-white md:text-5xl lg:text-6xl">${articulo.getAttribute('titulo')}</h1>
                 
@@ -33,6 +34,7 @@ function busqueda(xhhtp) {
                     </a>
             </div>
         </section>
+        </div>
         `;
 
 
