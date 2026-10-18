@@ -47,6 +47,22 @@ blockquote{
     align-self: center;
 }
 
+@media (max-width: 992px){
+    .imagen{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagen > img{
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+}
+
 
 @media (min-width: 992px) {
     .textoLateral{

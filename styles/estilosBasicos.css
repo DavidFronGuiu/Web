@@ -16,6 +16,13 @@ body{
     
 }
 
+@media (max-width: 992px){
+body{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+}
+
 nav > ul{
     list-style-type: none;
     display: flex;
@@ -90,6 +97,11 @@ h1{
         align-items: center;
         justify-content: center;
     }
+
+    main{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
 
 @media (max-width: 992px) {
@@ -105,14 +117,16 @@ h1{
         align-items: center;
         justify-content: center;
     }
+
+    main{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 
 
-main{
-    margin-left: 10%;
-    margin-right: 10%;
-}
+
 
 p{
     text-align: justify;

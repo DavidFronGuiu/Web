@@ -26,6 +26,22 @@ div:has(div.imagen) > p {
     align-self: center;
 }
 
+@media (max-width: 992px){
+    .imagen{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagen > img{
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+}
+
 .contenedor > img{
     width: 47.5%;
     height: auto;
