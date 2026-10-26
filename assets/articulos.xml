@@ -1,5 +1,18 @@
 <?xml version="1.0"?>
 <articulos>
+  <articulo titulo="Por encima de todo, elige Canadá" 
+    subtitulo="El fracaso del independentismo albertano es otra victoria para Mark Carney"
+     carpeta="alberta-referendum" width="910" height="607" id="portada" alt="Una hoja de arce roja (el símbolo de Canadá) sobre un suelo embarrado por la lluvia">
+    <etiquetas>
+      <etiqueta>
+        Canada
+      </etiqueta>
+      <etiqueta>
+        Independentismo
+      </etiqueta>
+    </etiquetas>
+  </articulo>
+
   <articulo titulo="La educación guiando al pueblo" 
     subtitulo="Las protestas estudiantiles en Francia ponen contra las cuerdas al frágil gobierno"
      carpeta="francia-estudiantes"  width="960" height="640" alt="Manifestantes escalan con banderas y pancartas el Monumento a la República">
