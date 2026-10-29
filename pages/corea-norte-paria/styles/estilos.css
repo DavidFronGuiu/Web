@@ -4,19 +4,23 @@
 }
 
 @media (min-width: 992px) {
-div:has(p.destacado) { 
+.contenedorDestacado { 
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
 }
-}
-
-div:has(p.destacado) > p{
-    width: 55%;
-}
 
 .destacado{
+    flex-basis: 50%;
+}
+
+.textoDestacado{
+    flex-basis: 100%;
+}
+}
+
+.destacado > p{
     font-weight: bold;
     flex: 1;
     color:brown;
@@ -24,6 +28,7 @@ div:has(p.destacado) > p{
     border-left: 5px brown solid;
     margin-left: 10%;
     text-align: left;
+    width: auto; 
 }
 
 h2{
