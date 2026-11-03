@@ -1,0 +1,83 @@
+.grafico{
+    width:65%;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+.contenedorDestacado { 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.destacado{
+    flex-basis: 50%;
+}
+
+.textoDestacado{
+    flex-basis: 100%;
+}
+}
+
+.destacado > p{
+    font-weight: bold;
+    flex: 1;
+    color:brown;
+    padding: 5%;
+    border-left: 5px brown solid;
+    margin-left: 10%;
+    text-align: left;
+    width: auto; 
+}
+
+h2{
+    margin-top: 5%;
+}
+
+blockquote{
+    align-self: center;
+}
+
+.imagen{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagen > img{
+    width: 70%;
+    height: auto;
+    align-self: center;
+}
+
+@media (max-width: 992px){
+    .imagen{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagen > img{
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+}
+
+@media (min-width: 992px) {
+    .textoLateral{
+    width: 150%;
+    padding-right: 5%;
+}
+}
+
+
+.mapa{
+    width: 35%;
+    height: auto;
+}

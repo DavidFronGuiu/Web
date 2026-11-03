@@ -1,5 +1,18 @@
 <?xml version="1.0"?>
 <articulos>
+  <articulo titulo="Disturbios en el paraíso" 
+    subtitulo="El disparo a una mujer por parte de la policía ha desencadenado en una violencia inusual en Mauricio"
+     carpeta="mauricio-protestas" width="910" height="607" id="portada" alt="Una hoja de arce roja (el símbolo de Canadá) sobre un suelo embarrado por la lluvia">
+    <etiquetas>
+      <etiqueta>
+        Mauricio
+      </etiqueta>
+      <etiqueta>
+        Protestas
+      </etiqueta>
+    </etiquetas>
+  </articulo>
+
   <articulo titulo="Por encima de todo, elige Canadá" 
     subtitulo="El fracaso del independentismo albertano es otra victoria para Mark Carney"
      carpeta="alberta-referendum" width="910" height="607" id="portada" alt="Una hoja de arce roja (el símbolo de Canadá) sobre un suelo embarrado por la lluvia">
