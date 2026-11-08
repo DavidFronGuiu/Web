@@ -1,8 +1,19 @@
 <?xml version="1.0"?>
 <articulos>
+
+  <articulo titulo="Todo mal en Riad" 
+    subtitulo="Los imposibles equilibrios que el estado saudí ha buscado colocan al país en su peor posición en décadas"
+     carpeta="arabia-saudi-huties" width="910" height="607" id="portada" alt="La Kaaba, la Meca, de noche">
+    <etiquetas>
+      <etiqueta>
+        Arabia Saudita
+      </etiqueta>
+    </etiquetas>
+  </articulo>
+
   <articulo titulo="Disturbios en el paraíso" 
-    subtitulo="El disparo a una mujer por parte de la policía ha desencadenado en una violencia inusual en Mauricio"
-     carpeta="mauricio-protestas" width="910" height="607" id="portada" alt="Una hoja de arce roja (el símbolo de Canadá) sobre un suelo embarrado por la lluvia">
+    subtitulo="El disparo a una mujer por parte de la policía ha desencadenado una violencia inusual en Mauricio"
+     carpeta="mauricio-protestas" width="910" height="607" id="portada" alt="Un hombre observando el atardecer en una playa de Mauricio">
     <etiquetas>
       <etiqueta>
         Mauricio
